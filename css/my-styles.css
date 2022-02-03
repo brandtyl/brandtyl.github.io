@@ -1,1 +1,9 @@
-h1 {color: red;}
+h1 {
+  color: red;
+}
+
+p {
+  width: 650px;
+  margin: 0 auto;
+  padding: 0 150px 30px;
+}
