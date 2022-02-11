@@ -1,18 +1,39 @@
-h1 {
-	color: red;
-}
 
 
 
-.my-nav-btn {
+body {
 	color: #231f20;
+	font-family: 'IBM Plex Mono', monospace;
 }
 
-.my-nav-btn:focus {
-	/*box-shadow: 0 0 0 .25rem #f7ec13;*/
-	box-shadow: none;
+.project-divider {
+	margin: 5rem 0;
 }
 
-.my-nav-btn:hover {
+header {
+	margin-bottom: 2rem;
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0 0;
+}
+
+.nav-menu ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.nav-menu ul li:not(:first-child) {
+	margin-left: 2rem;
+}
+
+.nav-menu ul li a {
 	color: #231f20;
+	text-decoration: none;
 }
